@@ -1,0 +1,178 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    /* transition: 0.5s ease-in-out; */
+}
+button{
+    cursor:pointer;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px auto;
+    height: 180px;
+    width: 450px;
+    font-weight: 700;
+}
+
+.head .d1 img {
+    height: 60px;
+    width: 60px;
+}
+
+.head .d1 {
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.07em;
+}
+
+.head .d2 {
+    font-size: 1.7rem;
+    letter-spacing: -0.07em;
+}
+
+.sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 180px;
+    width: 450px;
+    margin: 0px auto;
+}
+
+.sign img {
+    height: 30px;
+    width: 30px;
+    border-radius:50%;
+    margin-right: 10px;
+}
+.sign .but{
+    margin: 0px auto;
+    height: 48px;
+    width: 394px;
+    border-radius:10rem;
+    border:2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+.sign .but:hover{
+    transform: scale(1.03);
+}
+.or hr{
+    height:1px;
+    width:30%;
+}
+.container{
+    height:300px;
+    width:450px;
+    display:flex;
+    flex-direction: column;
+    margin:0px auto;
+    justify-content: space-evenly;
+}
+.container div{
+    display:flex;
+    font-size:0.9rem;
+    font-weight: 700;
+    flex-direction: column;
+    margin-top:20px;
+}
+.container div input[type="text"]{
+    height:48px;
+    width:450px;
+    margin:10px;
+    margin-left:0px;
+}
+.dob{
+    display: flex;
+    width:450px;
+    height:200px;
+    margin:0 auto;
+    margin-top:60px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.txt{
+    font-weight:500;
+    font-size:0.9rem;
+}
+.dob .div1 input[type="text"]{
+    height:48px;
+    width:112px;
+}
+.dob .div2 select{
+    height:54px;
+    width:12rem;
+    flex: auto;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius:10px;
+    border:none;
+    border:1px solid black;
+}
+.dob .div1 input[type="text"]{
+    height:51px;
+    width:90px;
+    border-radius:10px;
+    border:none;
+    border:1px solid black;
+}
+.dob .div3 input[type="text"]{
+    height:51px;
+    width:90px;
+    border-radius:7px;
+    border:none;
+    border:1px solid black;
+}
+.gender{
+    display:flex;
+    flex-direction: column;
+    height: 100px;
+    width:450px;
+    margin:auto;
+    justify-content: space-between;
+}
+.gender p{
+    margin-bottom:-3px;
+    font-weight: 600;
+}
+.gender{
+    font-size:0.85rem;
+}
+.checkboxes{
+    display:flex;
+    flex-direction: column;
+    height: 100px;
+    width:450px;
+    margin:auto;
+    margin-top:30px;
+    justify-content: space-between;
+    font-size:0.85rem;
+    font-weight:600;
+}
+.signbutton{
+    display:flex;
+    flex-direction: column;
+    height: 150px;
+    width:450px;
+    font-size:0.65rem;
+    font-weight:600;
+    margin:auto;
+    margin-top:30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.signbutton button{
+    width: 150px;
+    height:56px;
+    font-size: 1.1rem;
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    background-color: #1ed760;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins&family=Recursive&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./assets/logo2.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="head">
+        <div class="d1"><img src="./assets/logo2.jpg">Spotify</div>
+        <div class="d2">Sign up for free to start listening.</div>
+    </div>
+    <div class="sign">
+        <div class="but" style="background-color: #405A93;color:white"><img src="./assets/facebook.jpg">
+            <div>Sign Up With Facebook</div>
+        </div>
+        <div class="but"><img src="./assets/google.jpg">
+            <div>Sign Up With Google</div>
+        </div>
+        <div class="or">
+            <hr>
+            <hr>
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            What's your email?
+            <input type="text" placeholder="Enter your email.">
+            <span style="cursor:pointer;font-size:0.7rem;color: #117a37;font-size:300;text-decoration: underline;">Use phone number instead.</span>
+        </div>
+        <div>
+            Create a password
+            <input type="text" placeholder="Create your password.">
+        </div>
+        <div>
+            What should we call you?
+            <input type="text" placeholder="Enter a profile name.">
+            This appears on your profile.
+        </div>
+    </div>
+
+    <div class="dob">
+        <div style="display: inline;width:100%;font-weight:700">What's your date of birth?</div>
+        <div class="div1">
+            <p class="txt">Year</p>
+            <input type="text" placeholder="YYYY">
+        </div>
+        <div class="div2">
+            <p class="txt">Month</p>
+            <select name="month">
+                <option value="0">Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+        </div>
+        <div class="div3">
+            <p class="txt">Day</p>
+            <input type="text" placeholder="DD">
+        </div>
+    </div>
+    <div class="gender">
+        <p>What's your gender?</p>
+        <div style="display: flex;width:100%;justify-content: space-between;">
+            <div><input type="radio" name="r1"> Male</div>
+            <div><input type="radio" name="r1" id=""> Others</div>
+            <div><input type="radio" name="r1" id=""> Female</div>
+            <div><input type="radio" name="r1" id=""> Non-Binary</div>
+        </div>
+        <div>
+            <input type="radio" name="r1" id="">Prefer not to say
+        </div>
+    </div>
+    <div class="checkboxes">
+        <div><label for="c1"><input type="checkbox" name="c1" id="c1"> I would prefer not to receive marketing messages from Spotify</label></div>
+        <div><label for="c2"><input type="checkbox" name="c2" id="c2"> Share my registration data with Spotify's content providers for marketing purposes.</label></div>
+    </div>
+    <div class="signbutton">
+        <p>By clicking on sign-up, you agree to Spotify's <span style="cursor:pointer;font-size:0.7rem;color: #117a37;font-size:300;text-decoration: underline;">Terms and Conditions of Use.</span></p>
+        <p style="text-align: center;">To learn more about how Spotify collects, uses, shares and protects your personal data, please see Spotify's Privacy Policy.</p>
+        <a href="main_page.html"><button>Sign Up</button></a>
+    </div>
+    <div class="already" style="font-size:1rem;font-weight:600;margin:auto;height:30px;width:450px;text-align: center;margin-top:30px">
+        Have an account? <span style="cursor:pointer;color: #117a37;font-size:300;text-decoration: underline;">Log in.</span>
+    </div>
+    <br><br><br><br><br><br><br>
+</body>
+
+</html>
